@@ -1,9 +1,18 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+
+import { Box } from '@mui/material';
+
+import Selector from './Selector';
+import TabPanels from './TabPanels';
 
 const Main = () => (
   <>
-    <div>test</div>
-    <div>test</div>
+    <Box>
+      <Selector />
+    </Box>
+    <Box>
+      <TabPanels />
+    </Box>
   </>
 );
 
