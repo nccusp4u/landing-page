@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-const Main = () => {
-    return (
-        <div>A test website!</div>
-    )
-};
+function Main() {
+  return (
+    <div>A test website!</div>
+  );
+}
 
 export default Main;
