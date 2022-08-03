@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
-function Main() {
-  return (
-    <div>A test website!</div>
-  );
-}
+const Main = () => (
+  <>
+    <div>test</div>
+    <div>test</div>
+  </>
+);
 
 export default Main;
