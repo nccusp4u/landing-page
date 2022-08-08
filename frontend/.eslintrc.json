@@ -25,6 +25,14 @@
                 "namedComponents": "arrow-function",
                 "unnamedComponents": "arrow-function"
             }
+        ],
+        "react/jsx-curly-brace-presence": [
+            "error",
+            {
+                "props": "always",
+                "children": "always",
+                "propElementValues": "always"
+            }
         ]
     }
 }
